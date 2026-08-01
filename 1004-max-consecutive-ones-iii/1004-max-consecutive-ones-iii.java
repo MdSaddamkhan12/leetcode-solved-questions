@@ -16,7 +16,7 @@ class Solution {
                 zeroes++;
             }
             // If zero count exceeds k, shrink the window from left
-            if(zeroes > k){
+            while(zeroes > k){
 
                 if(nums[left] == 0){
                     zeroes--;
