@@ -19,4 +19,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0424-longest-repeating-character-replacement) |
+## Stack
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0225-implement-stack-using-queues) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
