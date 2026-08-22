@@ -1,50 +1,42 @@
+// using only one queue
 class MyStack {
 
-    Queue<Integer> q1;
-    Queue<Integer> q2;
-
+    Queue<Integer> q;
     public MyStack() {
 
-        q1 = new LinkedList<>();
-        q2 = new LinkedList<>();
+        q = new LinkedList<>();
         
     }
     
     public void push(int x) {
 
+        // add new element to queue
+        q.add(x);
 
-        // Copy all the elements from Q1 to Q2
-        while(!q1.isEmpty()){
+        // rotate the queue , Move all previous elements behind it
+        int n = q.size() - 1;
+        for(int i = 0; i < n; i++){
 
-            q2.add(q1.poll());
-        }
-
-        // then add the element to Q1
-        q1.add(x);
-
-        // Copy all the elements from Q2 to Q1
-        while(!q2.isEmpty()){
-
-            q1.add(q2.poll());
+            q.add(q.poll());
         }
         
     }
     
     public int pop() {
 
-       return q1.poll();
+        return q.poll();
         
     }
     
     public int top() {
 
-        return q1.peek();
+        return q.peek();
         
     }
     
     public boolean empty() {
 
-        return q1.isEmpty();
+        return q.isEmpty();
         
     }
 }
