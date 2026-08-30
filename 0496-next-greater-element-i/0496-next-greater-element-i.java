@@ -1,14 +1,14 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 
-        int m = nums1.length;
+        int n = nums1.length;
 
         Stack<Integer> stack = new Stack<>();
 
         // to store the element from nums2 and its next greater element
         Map<Integer, Integer> nextGreater = new HashMap<>();
 
-        int[] result = new int[m];
+        int[] result = new int[n];
 
         // Traverse the nums2 array
         for(int num : nums2){
@@ -22,7 +22,7 @@ class Solution {
 
         }
         // Build result by looking up each nums1 element in the map
-        for(int i = 0; i < m; i++){
+        for(int i = 0; i < n; i++){
 
             result[i] = nextGreater.getOrDefault(nums1[i], -1);
         }
