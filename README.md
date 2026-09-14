@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0232-implement-queue-using-stacks) |
+| [0707-design-linked-list](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0707-design-linked-list) |
 | [0901-online-stock-span](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0901-online-stock-span) |
 ## Queue
 |  |
@@ -56,4 +57,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0901-online-stock-span) |
+## Linked List
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
