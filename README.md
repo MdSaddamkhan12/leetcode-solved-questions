@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0424-longest-repeating-character-replacement](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0496-next-greater-element-i) |
 | [0904-fruit-into-baskets](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0904-fruit-into-baskets) |
@@ -60,6 +61,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0237-delete-node-in-a-linked-list](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0707-design-linked-list](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0707-design-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0160-intersection-of-two-linked-lists) |
 <!---LeetCode Topics End-->
