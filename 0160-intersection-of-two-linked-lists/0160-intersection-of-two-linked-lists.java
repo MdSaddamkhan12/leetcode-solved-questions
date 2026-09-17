@@ -12,27 +12,18 @@
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
-        Set<ListNode> seen = new HashSet<>();
-        ListNode current = headA;
+        ListNode pA = headA;
+        ListNode pB = headB;
+        
+        // Traverse both lists, when one reaches the end, redirect it to the head of the other list
+        while( pA != pB){
 
-         // Store all nodes from list A in a set
-        while(current != null){
-
-            seen.add(current);
-            current = current.next;
+            // When pA reaches to end , point it to the headB
+            pA = (pA == null) ? headB : pA.next;
+            // When pB reaches to end , point it to the headA
+            pB = (pB == null) ? headA : pB.next;
         }
-
-        current = headB;
-        // Walk through list B and find the first shared node
-        while(current != null){
-
-            if(seen.contains(current)){
-                
-                return current;
-            }
-            current = current.next;
-        }
-        return null;
+        return pA;
         
     }
 }
