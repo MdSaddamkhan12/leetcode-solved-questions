@@ -18,13 +18,13 @@ class Solution {
         ListNode slow = dummy;
 
          // Move fast by n + 1 steps to create the gap
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i <= n; i++){
 
             fast = fast.next;
         }
 
         // Move both pointers until fast reaches the end
-        while(fast.next != null){
+        while(fast != null){
 
             slow = slow.next;
             fast = fast.next;
