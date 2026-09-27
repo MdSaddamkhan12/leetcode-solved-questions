@@ -11,23 +11,16 @@
 class Solution {
     public ListNode middleNode(ListNode head) {
 
-        ListNode current = head;
+        ListNode slow = head;
+        ListNode fast = head;
 
-        // 1st Pass: find the length of LL
-        int count = 0;
-        while(current != null){
+        // Move slow by 1 and fast by 2
+        while(fast != null && fast.next != null){
 
-            count++;
-            current = current.next;
+            slow = slow.next;
+            fast = fast.next.next;
         }
-
-        // 2nd Pass: find the middle Node
-        current = head;
-        for(int i = 0; i < count/2; i++){
-
-            current = current.next;
-        }
-        return current;
+        return slow;
         
     }
 }
