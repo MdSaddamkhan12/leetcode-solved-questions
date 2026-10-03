@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0160-intersection-of-two-linked-lists) |
+| [0202-happy-number](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0202-happy-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0496-next-greater-element-i) |
 | [0904-fruit-into-baskets](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0904-fruit-into-baskets) |
@@ -78,11 +79,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0160-intersection-of-two-linked-lists) |
+| [0202-happy-number](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0202-happy-number) |
 | [0876-middle-of-the-linked-list](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0876-middle-of-the-linked-list) |
 ## Math
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0002-add-two-numbers) |
+| [0202-happy-number](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0202-happy-number) |
 ## Recursion
 |  |
 | ------- |
@@ -92,4 +95,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/MdSaddamkhan12/leetcode-solved-questions/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
