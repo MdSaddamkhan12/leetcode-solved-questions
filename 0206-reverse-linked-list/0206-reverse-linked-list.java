@@ -9,34 +9,24 @@
  * }
  */
 class Solution {
-        public ListNode reverseList(ListNode head) {
+    public ListNode reverseList(ListNode head) {
 
-            // Initialize prev as null because the last node of the reversed list must point to null.
-            ListNode prev = null;
+        // list is empty -> head = null, single node -> head.next = null
+        if(head == null || head.next == null){
 
-            // Temporary pointer to store the next node before reversing the current node's link.
-            ListNode nextNode = null;
+            return head;
+        }
 
-            // Start traversing the linked list from the head node.
-            ListNode current = head;
+        ListNode newHead = reverseList(head.next);
 
-            // Continue until all nodes have been processed.
-            while (current != null) {
-
-                // Save the next node so we don't lose the remaining linked list.
-                nextNode = current.next;
-
-                // Reverse the current node's pointer to point to the previous node.
-                current.next = prev;
-
-                // Move prev forward to the current node.
-                prev = current;
-
-                // Move current forward to the next node saved earlier.
-                current = nextNode;
-            }
-
-            // Return prev, which now points to the new head of the reversed linked list.
-            return prev;
+        // 'front' points to the node immediately after 'head'
+        ListNode front = head.next;
+        // make front to point to head
+        front.next = head;
+        // make head point to null
+        head.next = null;
+        // return the reversed list
+        return newHead;
+        
     }
 }
