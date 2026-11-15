@@ -1,23 +1,22 @@
 class Solution {
     public void reverseString(char[] s) {
+
+        reverse(s, 0, s.length - 1);
         
-        int n = s.length;
-        char[] copyArray = new char[n];
+    }
 
+    private void reverse(char[] s, int left, int right){
 
-        // copy the elements from the original array to copyArray from the end(reverse)
-        for(int i = 0; i < n; i++){
+        // Base case
+        if(left >= right){
 
-            copyArray[i] = s[n - 1 - i];
+            return;
         }
 
-        // copy the reverse elements to the original array(s)
-
-        for(int i = 0; i < n; i++){
-
-            s[i] = copyArray[i];
-        }
-
-
+        // Swap and recurse on the inner subarray
+        char temp = s[left];
+        s[left] = s[right];
+        s[right] = temp;
+        reverse(s, left + 1, right - 1);
     }
 }
